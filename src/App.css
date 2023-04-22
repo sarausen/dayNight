@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.app {
+    background-color: #5cf;
+    width: 700px;
+    height: 500px;
+    padding: 50px;
+}
+.planet {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.night {
+    background-color: blue;
+}
+.night > .planet {
+    background-color: #fff;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 270px;
+    margin-left: 200px;
+
+}
+
+
